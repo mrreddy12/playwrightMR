@@ -12,10 +12,10 @@ test("button",async ({page})=>{
 //
     const b= await page.locator("//input[@id='Login']").isVisible();
      console.log("visiable status : ",b);
-     const b2= await page.locator("//input[@id='Login']").isEnabled();
+     const b2= await page.locator("//input[@id='Log']").isEnabled();
      console.log("enable status ",b2);
      
-     const b3= await page.locator("//input[@id='Login']").isDisabled();
+     const b3= await page.locator("//input[@id='Log']").isDisabled();
      console.log("enable status ",b3);
     //  const b4 =await page.locator("//input[@id='Login']").innerText();
     //  console.log("innerhtml code is: ",b4);
