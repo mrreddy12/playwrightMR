@@ -8,7 +8,7 @@ test("button",async ({page})=>{
     // its my thire comment
 
     await page.locator("//span[text()='Buttons']").click();
-   await page.waitForTimeout(5000);
+   await page.waitForTimeout(6000);
 
     const b= await page.locator("//input[@id='Logx']").isVisible();
      console.log("visiable status : ",b);
