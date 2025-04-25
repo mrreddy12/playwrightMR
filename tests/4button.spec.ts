@@ -5,7 +5,7 @@ test("button",async ({page})=>{
     await page.goto("https://mrreddyautomation.com/playground/");
  // it my comment
     //its my second cooment
-    // its my third comment
+    // its my thire comment
 
     await page.locator("//span[text()='Buttons']").click();
    await page.waitForTimeout(5000);
