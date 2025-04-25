@@ -3,7 +3,7 @@ import {test,expect} from "@playwright/test"
 test("button",async ({page})=>{
     //isVisible..isEsnable...click..dblclick
     await page.goto("https://mrreddyautomation.com/playground/");
- 
+ // it my comment
 
     await page.locator("//span[text()='Buttons']").click();
    await page.waitForTimeout(5000);
